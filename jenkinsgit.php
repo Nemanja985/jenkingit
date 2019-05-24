@@ -1,3 +1,3 @@
 <?php
-echo "Sve je to blagosloveno"
+echo "Sve je to blagosloveno!"
 ?>
