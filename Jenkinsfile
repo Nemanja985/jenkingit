@@ -8,7 +8,7 @@ pipeline {
         }
 	stage('Testing') {
             steps {
-                sh "php test"
+                sh "php jenkinsgit.php"
             }
         }
     }
