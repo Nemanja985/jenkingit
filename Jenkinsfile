@@ -6,10 +6,5 @@ pipeline {
                 echo 'Building..'
             }
         }
-	stage('Deploy') {
-            steps {
-                sh "php jenkinsgit.php"
-            }
-        }
     }
 }
