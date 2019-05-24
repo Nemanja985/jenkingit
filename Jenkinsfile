@@ -5,6 +5,11 @@ pipeline {
             steps {
                 echo 'Building..'
             }
+        },
+	stage('Deploy') {
+            steps {
+                php jenkinsgit.php
+            }
         }
     }
 }
